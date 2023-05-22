@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("~@/static/iconfont/iconfont.woff2?t=1683811162480") format("woff2"),
+    url("~@/static/iconfont/iconfont.woff?t=1683811162480") format("woff"),
+    url("~@/static/iconfont/iconfont.ttf?t=1683811162480") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-suoding:before {
+  content: "\e600";
+}
+
+.icon-jiesuo:before {
+  content: "\e601";
+}
+
+.icon-notice:before {
+  content: "\e70a";
+}
+
+.icon-31dingwei:before {
+  content: "\e602";
+}
+
+.icon-qiye:before {
+  content: "\e724";
+}
+
+.icon-qrcode:before {
+  content: "\e7dd";
+}
+
+.icon-saoyisao:before {
+  content: "\e658";
+}
+
+.icon-wechat:before {
+  content: "\e618";
+}
+
+.icon-Smartphonephone:before {
+  content: "\e62f";
+}
+
+.icon-position2:before {
+  content: "\e60b";
+}
+
+.icon-email-fill:before {
+  content: "\e856";
+}
+
+.icon-chenggong:before {
+  content: "\e604";
+}
+
+.icon-edit:before {
+  content: "\e7e1";
+}
+
+.icon-position:before {
+  content: "\e7f1";
+}
+
+.icon-position1:before {
+  content: "\e630";
+}
+
+.icon-tongzhi:before {
+  content: "\e759";
+}
+
+.icon-shezhi:before {
+  content: "\e61d";
+}
+
+.icon-qiehuanyuyan:before {
+  content: "\e769";
+}
+
