@@ -1,0 +1,174 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "%pages.login_title%"
+      }
+    },
+    {
+      "path": "pages/login/shipLogin",
+      "style": {
+        "navigationBarTitleText": "%pages.login_ship_title%"
+      }
+    },
+    {
+      "path": "pages/login/forget",
+      "style": {
+        "navigationBarTitleText": "%pages.forget_password_title%"
+      }
+    },
+    {
+      "path": "pages/tabBar/home",
+      "style": {
+        "navigationBarTitleText": "%pages.home_title%"
+      }
+    },
+    {
+      "path": "pages/tabBar/coupon",
+      "style": {
+        "navigationBarTitleText": "%pages.coupon_title%"
+      }
+    },
+    {
+      "path": "pages/tabBar/mime",
+      "style": {
+        "navigationBarTitleText": "%pages.mime_title%"
+      }
+    },
+    {
+      "path": "pages/tabBar/product",
+      "style": {
+        "navigationBarTitleText": "%pages.product_title%"
+      }
+    },
+    {
+      "path": "pages/tabBar/shop",
+      "style": {
+        "navigationBarTitleText": "%pages.shop_store_title%"
+      }
+    }
+    
+  ],
+  "subPackages": [
+    {
+      "root": "pages/coupon",
+      "pages": [{}]
+    },
+    {
+      "root": "pages/home",
+      "pages": [
+        {
+          "path": "search/search",
+          "style": {
+            "navigationBarTitleText": "%pages.home_search_title%"
+          }
+        },
+        {
+          "path": "memberCode/index",
+          "style": {
+            "navigationBarTitleText": "%pages.home_member_code_title%"
+          }
+        },
+        {
+          "path": "message/index",
+          "style": {
+            "navigationBarTitleText": "%pages.home_message_title%"
+          }
+        },
+        {
+          "path": "companyInfo/index",
+          "style": {
+            "navigationBarTitleText": "%pages.home_company_info_title%"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/mime",
+      "pages": [{}]
+    },
+    {
+      "root": "pages/product",
+      "pages": [
+        {
+          "path": "productDetail/index",
+          "style": {
+            "navigationBarTitleText": "%pages.product_detail_title%"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/shop",
+      "pages": [
+        {
+          "path": "memberDetail/index",
+          "style": {
+            "navigationBarTitleText": "%pages.shop_member_detail_title%"
+          }
+        },
+        {
+          "path": "storeDetail/index",
+          "style": {
+            "navigationBarTitleText": "%pages.shop_store_detail_title%"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+
+    "usingComponents": {
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-icon": "/wxcomponents/vant/icon/index",
+      "van-empty": "/wxcomponents/vant/empty/index",
+      "van-image": "/wxcomponents/vant/image/index",
+      "van-field": "/wxcomponents/vant/field/index",
+      "van-steps": "/wxcomponents/vant/steps/index"
+    }
+  },
+  "uniIdRouter": {},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#42b983",
+    "borderStyle": "white",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home",
+        "iconPath": "static/tabbar/basics.png",
+        "selectedIconPath": "static/tabbar/basics_cur.png",
+        "text": "%pages.home_title%"
+      },
+      {
+        "pagePath": "pages/tabBar/shop",
+        "iconPath": "static/tabbar/plugin.png",
+        "selectedIconPath": "static/tabbar/plugin_cur.png",
+        "text": "%pages.shop_store_title%"
+      },
+      {
+        "pagePath": "pages/tabBar/product",
+        "iconPath": "static/tabbar/component.png",
+        "selectedIconPath": "static/tabbar/component_cur.png",
+        "text": "%pages.product_title%"
+      },
+      {
+        "pagePath": "pages/tabBar/coupon",
+        "iconPath": "static/tabbar/plugin.png",
+        "selectedIconPath": "static/tabbar/plugin_cur.png",
+        "text": "%pages.coupon_title%"
+      },
+      {
+        "pagePath": "pages/tabBar/mime",
+        "iconPath": "static/tabbar/about.png",
+        "selectedIconPath": "static/tabbar/about_cur.png",
+        "text": "%pages.mime_title%"
+      }
+    ]
+  }
+}

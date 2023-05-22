@@ -1,0 +1,38 @@
+{
+	"login.title": "登录", 
+	"login.accountText": "账号", 
+	"login.passwordText": "密码", 
+	"login.phoneText": "短信", 
+	"login.phoneCode": "手机号", 
+	"login.codeText": "验证码", 
+	"login.loginBtnText": "登录", 
+	"login.loginLoadingText": "登录中", 
+	"login.accountLoginText": "账号登录", 
+	"login.mobileLoginText": "短信登录", 
+
+	"form.pleaseInput": "请输入", 
+	"form.pleaseSelect": "请选择", 
+	"form.accountPlaceholder": "请输入账号", 
+	"form.passwordPlaceholder": "请输入密码", 
+	"form.smsPlaceholder": "请输入验证码", 
+	"form.mobilePlaceholder": "请输入手机号码", 
+	"form.mobileCorrectlyPlaceholder": "请输入正确手机号", 
+
+	"curVersion": "当前版本", 
+	
+	"pages.login_title": "员工登录", 
+	"pages.login_ship_title": "登录", 
+	"pages.forget_password_title": "忘记密码", 
+	"pages.home_title": "首页", 
+	"pages.coupon_title": "优惠券", 
+	"pages.mime_title": "我的", 
+	"pages.product_title": "产品服务", 
+	"pages.shop_store_title": "附近门店", 
+	"pages.home_search_title": "搜索", 
+	"pages.home_member_code_title": "会员码", 
+	"pages.home_message_title": "消息", 
+	"pages.home_company_info_title": "企业风采", 
+	"pages.product_detail_title": "服务&产品名称", 
+	"pages.shop_member_detail_title": "员工详情", 
+	"pages.shop_store_detail_title": "门店详情"
+}
